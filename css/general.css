@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+}
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #fdf2e9;
+  padding: 3.2rem 4.2rem 0 4.2rem;
+}
+.omnifood-logo {
+  height: 2.2rem;
+}
+.main-nav {
+  font-size: 3rem;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+  list-style: none;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+  font-size: 1.8rem;
+  transition: color 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cb711f;
+}
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  background-color: #e27e22;
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cb711f;
+}
+
+.hero-section {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+.hero {
+  display: grid;
+  width: 140rem;
+  margin: 0 auto;
+  align-items: center;
+  gap: 9.6rem;
+  grid-template-columns: 1fr 1fr;
+}
+.hero-img {
+  width: 100%;
+}
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  color: #333;
+}
+.heading-primary {
+  line-height: 1.2;
+  font-size: 5.2rem;
+
+  margin-bottom: 3.2rem;
+}
+.heading-secondary {
+  font-size: 4.2rem;
+  margin-bottom: 4.6rem;
+}
+.subheading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #cb711f;
+}
+.heading-tertiary {
+  font-size: 3.2rem;
+  margin-bottom: 2.2rem;
+}
+.text-description {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.heading-description {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 4.8rem;
+}
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+.center-text {
+  text-align: center;
+}
+strong {
+  font-weight: 600;
+}
+.link:link,
+.link:visited {
+  text-decoration: none;
+  color: #e27e22;
+  border-bottom: 1px solid currentColor;
+}
+
+.link:hover,
+.link:active {
+  color: #cb711f;
+  border-bottom: 1px solid transparent;
+}
+/* Media Quiries */
